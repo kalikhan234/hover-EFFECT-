@@ -1,0 +1,103 @@
+body {
+    background: radial-gradient(circle at center, #0a0a0a, #111111, #1a1a1a);
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .continer {
+    background: rgba(255, 255, 255, 0.08); /* More transparency for the glass effect */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5), 
+                0 4px 30px hsla(0, 0%, 100%, 0.1); /* Soft glow */
+    backdrop-filter: blur(15px); /* Stronger blur effect */
+    -webkit-backdrop-filter: blur(15px); /* Safari support */
+    padding: 30px ;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    width: 320px;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* More visible glass border */
+  }
+  
+  .card-img{
+    padding: 10px;
+  }
+  .card-img img 
+  {
+
+    border-radius: 50%;
+    width: 100px;
+
+  }
+  .card-img img:hover{
+    padding-top: 30px;
+    transition: all 1s  linear;
+   
+  }
+  .card-img .ac{
+      font-size: 2rem;
+        font-family: 'Roboto Slab', 'Times New Roman', serif;
+        font-weight: bold;
+        line-height: 20px;
+  }
+  .card-img .CTIVE{
+    color: #c2f643;
+    font-size: 1.5rem;
+    line-height: 10px;
+  }
+  .card-img .avv{
+    font-size: 1rem;
+  }
+/* .content-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}.btn{
+    display: block;
+    border: none;
+    outline: none;
+    padding: 10px 60px;
+ border-radius: 
+ 5px
+ ;
+ background: rgba(255, 255, 255, 0.08); 
+ margin: 10px;
+ font-size: 2rem;
+} */
+
+.content-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  
+}
+
+.c {
+    
+}
+
+.btn {
+    display: block;border: none;
+    margin: 10px;
+    outline: none;
+    padding: 15px 40px; /* پدینگ دکمه‌ها برای بزرگ‌تر شدن */
+    border-radius: 8px; /* گرد کردن گوشه‌های دکمه */
+    background: rgba(255, 255, 255, 0.08);
+    font-size: 1.5rem; /* اندازه بزرگتر فونت دکمه‌ها */
+    width: 300px; /* عرض ثابت برای دکمه‌ها */
+    height: 60px; /* ارتفاع ثابت برای دکمه‌ها */
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+
+.btn:hover {
+color: #ffffff;
+background-color: #c2f643;
+}
